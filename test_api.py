@@ -26,7 +26,7 @@ def test_endpoints():
     try:
         print("\nTest POST /generate ")
         payload = {
-            "prompt": "What is AI?",
+            "prompt": "What is Docker?",
             "max_tokens": 20
         }
         response = requests.post(f"{BASE_URL}/generate", json=payload)
